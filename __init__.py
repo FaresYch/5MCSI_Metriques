@@ -30,6 +30,10 @@ def meteo():
 @app.route("/rapport/")
 def mongraphique():
     return render_template("graphique.html")
+
+@app.route("/tawarano/")
+def mongraphique():
+    return render_template("tawarano.html")
   
 if __name__ == "__main__":
   app.run(debug=True)
