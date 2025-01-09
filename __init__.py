@@ -31,7 +31,7 @@ def meteo():
 def mongraphique():
     return render_template("graphique.html")
 
-@app.route("/tawarano/")
+@app.route("/tawaranograph/")
 def mongraphique():
     return render_template("tawarano.html")
   
